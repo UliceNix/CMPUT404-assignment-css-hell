@@ -1,0 +1,170 @@
+/* Copyright 2016 Alice Wu. Licensed under the CC BY-ND 2.5 CA License (https://creativecommons.org/licenses/by-nd/2.5/ca/) */
+body {
+  background-color: #110c08;
+  font-family: Helvetica neue;
+  height: 100%;
+  width: 100%;
+  min-width: 1200px;
+}
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: #07472c;
+}
+
+hr {
+  margin: 10% 0% 5% 0%;
+}
+
+h2 {
+  text-align: center;
+}
+
+li {
+  margin: 1em;
+}
+
+.header-image {
+  background-image: url("headerImage.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 280px;
+}
+
+.tab-border {
+  border:1px solid;
+}
+
+.tabs {
+  line-height: 3em;
+  padding-left: 40%;
+  background-image: url(banner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90%;
+}
+
+.home-tab, .experience-tab, .skills-tab {
+  display: inline-block;
+  text-align: center;
+  min-width: 7em;
+  font-size: larger;
+  font-weight: bold;
+  color: #07472c;
+}
+
+.home-tab:hover, .experience-tab:hover, .skills-tab:hover {
+  display: inline-block;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+  cursor: pointer;
+  color: #c40305;
+}
+
+.highlight-tab {
+  color: white;
+  background-color: #07472c;
+  line-height: 3em;
+}
+
+.content {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  height: 100%;
+}
+
+.home-content {
+  float: left;
+  width: 60%;
+}
+.rounded-image {
+  border-radius:50%;
+  overflow:hidden;
+}
+
+.container-div {
+  overflow: hidden;
+  display: flex;
+  align-items: stretch;
+}
+
+.wrapper-div-flex {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5em;
+}
+
+.wrapper-div-block {
+  overflow: hidden;
+  display: block;
+  margin-bottom: 0.5em;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.narrow-column {
+  width: 30%;
+}
+
+.wide-column {
+  width: 60%;
+  margin: 5%;
+}
+
+.caption {
+  color: #07472c;
+  text-align: center;
+  font-style: italic;
+  font-size: small;
+}
+
+.highlights {
+  width: 30%;
+  float: right;
+  color: #07472c;
+  background: #fcf7f3;
+  margin: 20pt 0pt 20pt 30pt;
+  padding: 20pt;
+  border-radius: 2em;
+}
+
+.float-left {
+  float:left;
+}
+
+.float-right{
+  float: right;
+}
+
+.contact-info {
+  height: auto;
+}
+
+.graduation {
+  height:auto;
+}
+
+.professional-history {
+  display: block;
+}
+
+.card {
+  background: #262626;
+  margin-top: 5%;
+  padding: 20pt;
+  border-radius: 2em;
+}
+
+.card:nth-child(even) {
+  background: #fcf7f3;
+  color: black;
+}

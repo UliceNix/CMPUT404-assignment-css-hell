@@ -30,23 +30,23 @@
 
 *** Requirements
 
-    - [ ] Theme paragraphs with CSS
-    - [ ] Theme header tags with CSS
-    - [ ] Theme images and images captions with CSS
-    - [ ] Change the colour scheme to something aesthetically pleasing
-    - [ ] Apply 1 CSS file to 3 gutenberg documents.
-    - [ ] Include all 3 gutenberg documents HTML and assets, with the CSS applied.
-    - [ ] document in your README what modifications you had to make
+    - [/] Theme paragraphs with CSS
+    - [/] Theme header tags with CSS
+    - [/] Theme images and images captions with CSS
+    - [/] Change the colour scheme to something aesthetically pleasing
+    - [/] Apply 1 CSS file to 3 gutenberg documents.
+    - [/] Include all 3 gutenberg documents HTML and assets, with the CSS applied.
+    - [/] document in your README what modifications you had to make
       to the project gutenberg HTML files.
-    - [ ] Take 3 screenshots of firefox running all of your pages that
+    - [/] Take 3 screenshots of firefox running all of your pages that
       demonstrates your theme.
 
-** Part II 
+** Part II
 
    You're going to make your own HTML page and you're going to make 2
    CSS themes for it.
 
-   Emulate the 2nd and 3rd design from this comic: 
+   Emulate the 2nd and 3rd design from this comic:
    http://theoatmeal.com/comics/design_hell
 
    But instead make a 1 webpage about each assignment partner (1 page
@@ -69,17 +69,17 @@
 
 *** Requirements
 
-    - [ ] 4 sections: who you are, your history, what you have to
+    - [/] 4 sections: who you are, your history, what you have to
       offer, important points about you
-    - [ ] 1 Ugly CSS theme
-    - [ ] 1 good CSS theme
-    - [ ] Ugly theme has to be noticeabley different.
-    - [ ] 2 HTML files, each with the same content but different CSS
-    - [ ] your photo (try to keep it professional)
-    - [ ] Take 2 screenshots of firefox running all of your pages that
+    - [/] 1 Ugly CSS theme
+    - [/] 1 good CSS theme
+    - [/] Ugly theme has to be noticeabley different.
+    - [/] 2 HTML files, each with the same content but different CSS
+    - [/] your photo (try to keep it professional)
+    - [/] Take 2 screenshots of firefox running all of your pages that
       demonstrates your theme.
-    - [ ] Ensure that files are appropriately named and CASE SENSITIVE.
-    
+    - [/] Ensure that files are appropriately named and CASE SENSITIVE.
+
 
 ** Restrictions
    - [ ] Use Python 2.7

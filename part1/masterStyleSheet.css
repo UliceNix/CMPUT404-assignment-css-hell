@@ -1,0 +1,76 @@
+  /* Copyright 2016 Alice Wu. Licensed under the CC BY-ND 2.5 CA License (https://creativecommons.org/licenses/by-nd/2.5/ca/) */
+  /* Using important is generally a bad practice. However, since we're not allowed
+   * to modify the html besides inserting a href link to a master css file, I
+   * guess using important would be inevitable...
+   *
+   *
+   * Citation: all gradients are generated here: http://www.cssmatic.com/gradient-generator#'\-moz\-radial\-gradient\%28center\%2C\%20ellipse\%20cover\%2C\%20rgba\%28231\%2C39\%2C62\%2C0\.75\%29\%200\%25\%2C\%20rgba\%28100\%2C25\%2C240\%2C0\.78\%29\%2012\%25\%2C\%20rgba\%2825\%2C154\%2C240\%2C0\.82\%29\%2029\%25\%2C\%20rgba\%2810\%2C245\%2C159\%2C0\.88\%29\%2051\%25\%2C\%20rgba\%2810\%2C245\%2C38\%2C0\.92\%29\%2068\%25\%2C\%20rgba\%28240\%2C203\%2C92\%2C0\.95\%29\%2078\%25\%2C\%20rgba\%28248\%2C48\%2C58\%2C0\.98\%29\%2092\%25\%2C\%20rgba\%28248\%2C48\%2C58\%2C1\%29\%20100\%25\%29\%3B
+   */
+
+body {
+  background: rgba(224,199,168,1) !important;
+  background: -moz-linear-gradient(left, rgba(224,199,168,1) 0%, rgba(250,236,209,1) 13%, rgba(250,236,209,1) 85%, rgba(224,199,168,1) 100%) !important;
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(224,199,168,1)), color-stop(13%, rgba(250,236,209,1)), color-stop(85%, rgba(250,236,209,1)), color-stop(100%, rgba(224,199,168,1))) !important;
+  background: -webkit-linear-gradient(left, rgba(224,199,168,1) 0%, rgba(250,236,209,1) 13%, rgba(250,236,209,1) 85%, rgba(224,199,168,1) 100%) !important;
+  background: -o-linear-gradient(left, rgba(224,199,168,1) 0%, rgba(250,236,209,1) 13%, rgba(250,236,209,1) 85%, rgba(224,199,168,1) 100%) !important;
+  background: -ms-linear-gradient(left, rgba(224,199,168,1) 0%, rgba(250,236,209,1) 13%, rgba(250,236,209,1) 85%, rgba(224,199,168,1) 100%) !important;
+  background: linear-gradient(to right, rgba(224,199,168,1) 0%, rgba(250,236,209,1) 13%, rgba(250,236,209,1) 85%, rgba(224,199,168,1) 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0c7a8', endColorstr='#e0c7a8', GradientType=1 ) !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
+}
+
+h2 {
+  border: double;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin-left: 15% !important;
+  margin-right: 15% !important;
+}
+
+p {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  line-height: 2em;
+  letter-spacing: 0.1em;
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
+table {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  margin: auto;
+}
+
+a, a:link {
+  background-color: transparent !important;
+  color: #886750 !important;
+  font-weight: bold;
+}
+
+a: visited {
+  background-color: transparent !important;
+  color: rosybrown !important;
+  font-weight: bold;
+}
+
+pre {
+  margin-left: 10% !important;
+  line-height: 1.5em;
+}
+
+img {
+  border: double 5pt !important;
+  -webkit-filter: sepia(0.7) !important;
+  filter: sepia(0.7) !important;
+}
+
+td {
+  height: 2em;
+  vertical-align: middle !important;
+}
+
+.caption {
+  font-style: italic;
+}
